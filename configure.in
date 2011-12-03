@@ -1,7 +1,7 @@
 
 m4_define([libmatekeyring_major_version], [2011])
-m4_define([libmatekeyring_minor_version], [11])
-m4_define([libmatekeyring_micro_version], [16])
+m4_define([libmatekeyring_minor_version], [12])
+m4_define([libmatekeyring_micro_version], [01])
 m4_define([libmatekeyring_version],[libmatekeyring_major_version.libmatekeyring_minor_version.libmatekeyring_micro_version])
 
 AC_INIT([libmate-keyring], [libmatekeyring_version], [https://github.com/perberos/mate-desktop-environment])
