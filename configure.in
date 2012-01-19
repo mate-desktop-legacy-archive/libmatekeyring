@@ -43,6 +43,9 @@ PKG_CHECK_MODULES(GLIB, glib-2.0 >= 2.16.0)
 AC_SUBST(GLIB_CFLAGS)
 AC_SUBST(GLIB_LIBS)
 
+LIBRARY_CFLAGS="$LIBRARY_CFLAGS $GLIB_CFLAGS"
+LIBRARY_LIBS="$LIBRARY_LIBS $GLIB_LIBS"
+
 GETTEXT_PACKAGE="libmate-keyring"
 AC_DEFINE_UNQUOTED(GETTEXT_PACKAGE, "$GETTEXT_PACKAGE", [The gettext domain name])
 AC_SUBST(GETTEXT_PACKAGE)
@@ -220,7 +223,6 @@ library/tests/Makefile
 library/mate-keyring-1.pc
 library/mate-keyring-1-uninstalled.pc
 po/Makefile.in
-tests/Makefile
 ])
 
 # ------------------------------------------------------------------------------

@@ -10,7 +10,6 @@ INCLUDES= \
 	-I$(top_srcdir) \
 	-I$(top_builddir) \
 	$(LIBRARY_CFLAGS) \
-	$(GLIB_CFLAGS) \
 	$(LIBGCRYPT_CFLAGS)
 
 libmate_keyring_la_SOURCES = \
@@ -34,7 +33,6 @@ libmatekeyringinclude_HEADERS = \
 libmate_keyring_la_LIBADD = \
 	$(top_builddir)/egg/libegg.la \
 	$(LIBRARY_LIBS) \
-	$(GLIB_LIBS) \
 	$(LIBGCRYPT_LIBS)
 
 libmate_keyring_la_LDFLAGS = \
