@@ -1,10 +1,10 @@
 
 m4_define([libmatekeyring_major_version], [1])
-m4_define([libmatekeyring_minor_version], [1])
+m4_define([libmatekeyring_minor_version], [2])
 m4_define([libmatekeyring_micro_version], [0])
 m4_define([libmatekeyring_version],[libmatekeyring_major_version.libmatekeyring_minor_version.libmatekeyring_micro_version])
 
-AC_INIT([libmate-keyring], [libmatekeyring_version], [https://github.com/perberos/mate-desktop-environment])
+AC_INIT([libmate-keyring], [libmatekeyring_version], [https://github.com/mate-desktop/libmatekeyring])
 AC_CONFIG_SRCDIR([library/mate-keyring.h])
 AM_INIT_AUTOMAKE([tar-ustar])
 
@@ -46,7 +46,7 @@ AC_SUBST(GLIB_LIBS)
 LIBRARY_CFLAGS="$LIBRARY_CFLAGS $GLIB_CFLAGS"
 LIBRARY_LIBS="$LIBRARY_LIBS $GLIB_LIBS"
 
-GETTEXT_PACKAGE="libmate-keyring"
+GETTEXT_PACKAGE="libmatekeyring"
 AC_DEFINE_UNQUOTED(GETTEXT_PACKAGE, "$GETTEXT_PACKAGE", [The gettext domain name])
 AC_SUBST(GETTEXT_PACKAGE)
 

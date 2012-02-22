@@ -1,3 +1,7 @@
 mate-keyring is a program that keep password and other secrets for
-users. The library libmate-keyring is used by applications to integrate
+users. The library libmatekeyring is used by applications to integrate
 with the mate keyring system.
+
+libmatekeyring is a fork of libgnomekeyring.
+
+http://www.mate-desktop.org/
