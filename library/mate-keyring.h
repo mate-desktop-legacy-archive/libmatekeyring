@@ -29,9 +29,7 @@
 
 #include "mate-keyring-result.h"
 
-#ifdef __cplusplus
-extern "C" {
-#endif
+G_BEGIN_DECLS
 
 #define MATE_KEYRING_SESSION   "session"
 #define MATE_KEYRING_DEFAULT   NULL
@@ -520,8 +518,6 @@ MateKeyringResult    mate_keyring_daemon_set_display_sync         (const char *d
 
 MateKeyringResult    mate_keyring_daemon_prepare_environment_sync (void);
 
-#ifdef __cplusplus
-}
-#endif
+G_END_DECLS
 
 #endif /* MATE_KEYRING_H */

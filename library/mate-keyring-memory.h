@@ -26,9 +26,7 @@
 
 #include <glib.h>
 
-#ifdef __cplusplus
-extern "C" {
-#endif
+G_BEGIN_DECLS
 
 /**
  * mate-keyring-memory:Short_Description:
@@ -63,8 +61,6 @@ gboolean  mate_keyring_memory_is_secure      (gpointer p);
 
 gchar*    mate_keyring_memory_strdup         (const gchar* str);
 
-#ifdef __cplusplus
-}
-#endif
+G_END_DECLS
 
 #endif /* MATE_KEYRING_MEMORY_H */

@@ -49,6 +49,8 @@ test_create_item (void)
 int
 main (int argc, char *argv[])
 {
+	g_setenv ("MATE_KEYRING_TEST_SERVICE", "org.mate.keyring.Test", TRUE);
+
 	if (argc == 2) {
 		if (g_str_equal (argv[1], "--create-item")) {
 			return test_create_item ();

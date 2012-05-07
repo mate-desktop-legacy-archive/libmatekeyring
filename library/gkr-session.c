@@ -30,6 +30,7 @@
 #include <gcrypt.h>
 
 #include "egg/egg-dh.h"
+#include "egg/egg-hkdf.h"
 #include "egg/egg-libgcrypt.h"
 #include "egg/egg-secure-memory.h"
 
@@ -262,12 +263,13 @@ on_open_session_aes (GkrOperation *op, DBusMessage *reply, gpointer user_data)
 	gcry_mpi_t priv, prime, peer;
 	GkrSession *session;
 	const char *path;
-	gpointer key;
+	gpointer ikm;
+	gsize n_ikm;
 
 	g_assert (op);
 	g_assert (user_data);
 
-	/* If AES is not supported then skip on over to plain */
+	/* If AES is not supported then try plain method */
 	if (dbus_message_is_error (reply, DBUS_ERROR_NOT_SUPPORTED)) {
 		session_negotiate_plain (op);
 		return;
@@ -287,13 +289,14 @@ on_open_session_aes (GkrOperation *op, DBusMessage *reply, gpointer user_data)
 	if (!egg_dh_default_params ("ietf-ike-grp-modp-1024", &prime, NULL))
 		g_return_if_reached ();
 
+	/* Generate the actual secret */
 	priv = user_data;
-	key = egg_dh_gen_secret (peer, priv, prime, 16);
+	ikm = egg_dh_gen_secret (peer, priv, prime, &n_ikm);
 
 	gcry_mpi_release (peer);
 	gcry_mpi_release (prime);
 
-	if (key == NULL) {
+	if (ikm == NULL) {
 		g_message ("couldn't negotiate a valid session key");
 		gkr_operation_complete (op, MATE_KEYRING_RESULT_IO_ERROR);
 		return;
@@ -301,8 +304,14 @@ on_open_session_aes (GkrOperation *op, DBusMessage *reply, gpointer user_data)
 
 	session = session_new ();
 	session->path = g_strdup (path);
-	session->key = key;
 	session->n_key = 16;
+
+	/* Now digest this into our aes key */
+	session->key = egg_secure_alloc (session->n_key);
+	if (!egg_hkdf_perform ("sha256", ikm, n_ikm, NULL, 0, NULL, 0,
+	                       session->key, session->n_key))
+		g_return_if_reached ();
+	egg_secure_free (ikm);
 
 	G_LOCK (session_globals);
 	{
@@ -319,9 +328,9 @@ on_open_session_aes (GkrOperation *op, DBusMessage *reply, gpointer user_data)
 static void
 session_negotiate_aes (GkrOperation *op)
 {
+	const char *algorithm = "dh-ietf1024-sha256-aes128-cbc-pkcs7";
 	DBusMessageIter iter, variant, array;
 	gcry_mpi_t prime, base, pub, priv;
-	const char *algorithm = "dh-ietf1024-aes128-cbc-pkcs7";
 	gboolean ret;
 	guchar *buffer;
 	gsize n_buffer;
@@ -412,6 +421,7 @@ session_encode_secret (DBusMessageIter *iter, const gchar *path, gconstpointer p
                        gsize n_parameter, gconstpointer secret, gsize n_secret)
 {
 	DBusMessageIter struc, array;
+	const gchar *content_type = "text/plain; charset=utf8";
 
 	/* Write out the result message */
 	dbus_message_iter_open_container (iter, DBUS_TYPE_STRUCT, NULL, &struc);
@@ -422,6 +432,7 @@ session_encode_secret (DBusMessageIter *iter, const gchar *path, gconstpointer p
 	dbus_message_iter_open_container (&struc, DBUS_TYPE_ARRAY, "y", &array);
 	dbus_message_iter_append_fixed_array (&array, DBUS_TYPE_BYTE, &secret, n_secret);
 	dbus_message_iter_close_container (&struc, &array);
+	dbus_message_iter_append_basic (&struc, DBUS_TYPE_STRING, &content_type);
 	dbus_message_iter_close_container (iter, &struc);
 
 	return TRUE;
@@ -538,6 +549,14 @@ session_decode_secret (DBusMessageIter *iter, const char **path, gconstpointer *
 	dbus_message_iter_recurse (&struc, &array);
 	dbus_message_iter_get_fixed_array (&array, secret, &n_elements);
 	*n_secret = n_elements;
+
+	/*
+	 * content_type: We have no use for the content-type, but check
+	 * that it's there...
+	 */
+	if (!dbus_message_iter_next (&struc) ||
+	    dbus_message_iter_get_arg_type (&struc) != DBUS_TYPE_STRING)
+		return FALSE;
 
 	return TRUE;
 }
