@@ -1,0 +1,585 @@
+========== ar.po ==========
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# Khaled Hosny <khaledhosny@eglug.org>, 2010.
+
+
+
+
+========== ast.po ==========
+# Asturian translation for libmate-keyring.
+# Copyright (C) 2010 libmate-keyring's COPYRIGHT HOLDER
+# This file is distributed under the same license as the libmate-keyring package.
+# Xandru Armesto <xandru@softastur.org>, 2010.
+
+
+
+
+========== bg.po ==========
+# Bulgarian translation of libmate-keyring po-file.
+# Copyright (C) 2010 Free Software Foundation, Inc.
+# This file is distributed under the same license as the libmate-keyring package.
+# Alexander Shopov <ash@kambanaria.org>, 2010.
+#
+#
+
+
+
+
+========== bn.po ==========
+# Bengali translation for libmate-keyring.
+# Copyright (C) 2010 libmate-keyring's COPYRIGHT HOLDER
+# This file is distributed under the same license as the libmate-keyring package.
+# Israt Jahan <israt@ankur.org.bd>, 2010.
+#
+
+
+
+
+========== ca.po ==========
+# Catalan translation for libmate-keyring.
+# Copyright (C) 2010 libmate-keyring's COPYRIGHT HOLDER
+# This file is distributed under the same license as the libmate-keyring package.
+# Joan Duran <jodufi@gmail.com>, 2010.
+#
+
+
+
+
+========== ca@valencia.po ==========
+# Catalan translation for libmate-keyring.
+# Copyright (C) 2010 libmate-keyring's COPYRIGHT HOLDER
+# This file is distributed under the same license as the libmate-keyring package.
+# Joan Duran <jodufi@gmail.com>, 2010.
+#
+
+
+
+
+========== cs.po ==========
+# Czech translation for libmate-keyring.
+# Copyright (C) 2010 libmate-keyring's COPYRIGHT HOLDER
+# This file is distributed under the same license as the libmate-keyring package.
+# Zdeněk Hataš <zdenek.hatas@gmail.com>, 2010.
+#
+
+
+
+
+========== da.po ==========
+# Danish translation of libmate-keyring
+# Copyright (C) Free Software Foundation
+# This file is distributed under the same license as the libmate-keyring package.
+#
+# Ask Hjorth Larsen <asklarsen@gmail.com>, 2010.
+#
+
+
+
+
+========== de.po ==========
+# German translation for libmate-keyring.
+# Copyright (C) 2010 libmate-keyring's COPYRIGHT HOLDER
+# This file is distributed under the same license as the libmate-keyring package.
+# Mario Blättermann <mariobl@gnome.org>, 2010.
+#
+
+
+
+
+========== el.po ==========
+# Greek translation for libmate-keyring.
+# Copyright (C) 2010 libmate-keyring's COPYRIGHT HOLDER
+# This file is distributed under the same license as the libmate-keyring package.
+# Kostas Papadimas <pkst@gmx.net>, 2010.
+#
+
+
+
+
+========== en_GB.po ==========
+# British English translation for libmate-keyring
+# Copyright (C) 2010 libmate-keyring's COPYRIGHT HOLDER
+# This file is distributed under the same license as the libmate-keyring package.
+# Bruce Cowan <bcowan@fastmail.co.uk>, 2010.
+
+
+
+
+========== eo.po ==========
+# Esperanto translation for libmate-keyring
+# Copyright (c) 2010 Rosetta Contributors and Canonical Ltd 2010
+# This file is distributed under the same license as the libmate-keyring package.
+# Emmanuel Gil PEYROT linkmauve@linkmauve.fr>, 2010.
+# Aisano <>, 2010.
+#
+
+
+
+
+========== es.po ==========
+# Spanish translation for libmate-keyring.
+# Copyright (C) 2010 libmate-keyring's COPYRIGHT HOLDER
+# This file is distributed under the same license as the libmate-keyring package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# Jorge González <jorgegonz@svn.gnome.org>, 2010.
+
+
+
+
+========== et.po ==========
+# Estonian translation for libmate-keyring.
+# Libmate-keyring'i eesti keele tõlge.
+#
+# Copyright (C) 2010 The MATE Project.
+#
+# This file is distributed under the same license as the libmate-keyring package.
+# Mattias Põldaru <mahfiaz gmail com>, 2010.
+#
+
+
+
+
+========== eu.po ==========
+# translation of eu.po to Basque
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Iñaki Larrañaga Murgoitio <dooteo@euskalgnu.org>, 2010.
+
+
+
+
+========== fa.po ==========
+# Persian translation for libmate-keyring.
+# Copyright (C) 2010 IFSUG Translation Group
+# This file is distributed under the same license as the libmate-keyring package.
+# Arash Mousavi <mousavi.arash@gmail.com>, 2010.
+# Mostafa Mostafa <lashar@fedoraproject.org>, 2010.
+# Mahyar Moghimi <mahyar.moqimi@gmail.com>, 2010.
+#
+
+
+
+
+========== fi.po ==========
+# Finnish translation for libmate-keyring
+# Copyright (c) 2010 Rosetta Contributors and Canonical Ltd 2010
+# This file is distributed under the same license as the libmate-keyring package.
+# Jiri Grönroos <jiri.gronroos@iki.fi>, 2010.
+#
+
+
+
+
+========== fr.po ==========
+# French translation for libmate-keyring.
+# Copyright (C) 2010 Listed translators
+# This file is distributed under the same license as the libmate-keyring package.
+# Claude Paroz <claude@2xlibre.net>, 2010
+#
+
+
+
+
+========== fy.po ==========
+# Frisian translation for libmate-keyring
+# Copyright (c) 2011 Rosetta Contributors and Canonical Ltd 2011
+# This file is distributed under the same license as the libmate-keyring package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2011.
+#
+
+
+
+
+========== gl.po ==========
+# Galician translation for libmate-keyring.
+# Copyright (C) 2010 libmate-keyring's COPYRIGHT HOLDER
+# This file is distributed under the same license as the libmate-keyring package.
+# Fran Diéguez <frandieguez@ubuntu.com>, 2010, 2011.
+#
+
+
+
+
+========== gu.po ==========
+# translation of gu.po to Gujarati
+# Gujarati translation for libmate-keyring.
+# Copyright (C) 2011 libmate-keyring's COPYRIGHT HOLDER
+# This file is distributed under the same license as the libmate-keyring package.
+#
+# Sweta Kothari <swkothar@redhat.com>, 2011.
+
+
+
+
+========== he.po ==========
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+
+
+
+
+========== hu.po ==========
+# Hungarian translation of libmate-keyring.
+# Copyright (C) 2004, 2006, 2007, 2008, 2009, 2010 Free Software Foundation, Inc.
+# This file is distributed under the same license as the libmate-keyring package.
+#
+# Gergely Nagy <greg at mate dot hu>, 2004.
+# Laszlo Dvornik <dvornikl at mailbox dot hu>, 2004.
+# Gabor Kelemen <kelemeng at mate dot hu>, 2005, 2006, 2007, 2008, 2009, 2010.
+# Mate ORY <orymate at gmail d0t com>, 2006.
+
+
+
+
+========== id.po ==========
+# Indonesian translation for libmate-keyring.
+# Copyright (C) 2010 libmate-keyring's COPYRIGHT HOLDER
+# This file is distributed under the same license as the libmate-keyring package.
+# Nana Suryana <nana@suryana.or.id>, 2010.
+#
+
+
+
+
+========== it.po ==========
+# Italian translation for libmate-keyring.
+# Copyright (C) 2010 libmate-keyring's COPYRIGHT HOLDER
+# This file is distributed under the same license as the libmate-keyring package.
+# Francesco Marletta <francesco.marletta@tiscali.it>, 2010.
+#
+
+
+
+
+========== ja.po ==========
+# Japanese translation for libmate-keyring.
+# Copyright (C) 2010 libmate-keyring's COPYRIGHT HOLDER
+# This file is distributed under the same license as the libmate-keyring package.
+# Hideki Yamane (Debian-JP) <henrich@debian.or.jp>, 2010.
+#
+
+
+
+
+========== kn.po ==========
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Shankar Prasad <svenkate@redhat.com>, 2011.
+
+
+
+
+========== ko.po ==========
+# libmate-keyring Korean translation
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Changwoo Ryu <cwryu@debian.org>, 2010.
+#
+
+
+
+
+========== lt.po ==========
+# translation of lt.po to Lithuanian
+# Lithuanian translation of libmate-keyring
+# Copyright (C) 2010 The MATE Foundation.
+# This file is distributed under the same license as the libmate-keyring package.
+#
+# Gintautas Miliauskas <gintas@akl.lt>, 2010
+
+
+
+
+========== lv.po ==========
+# Latvian translation for libmate-keyring.
+# Copyright (C) 2010 libmate-keyring's COPYRIGHT HOLDER
+# This file is distributed under the same license as the libmate-keyring package.
+#
+# Peteris Krisjanis <pecisk@gmail.com>, 2010.
+
+
+
+
+========== ml.po ==========
+# malayalam Translation of libmate-keyring.master.po
+# Copyright (C) 2010 libmate-keyring'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# Jaisen Nedumpala <jaisuvyas@gmail.com>, 2010.
+#
+
+
+
+
+========== mn.po ==========
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# Badral Sanligiin <badral@openmn.org>, 2010.
+
+
+
+
+========== ms.po ==========
+# Malay translation for libmate-keyring.
+# Copyright (C) 2010 libmate-keyring's COPYRIGHT HOLDER
+# This file is distributed under the same license as the libmate-keyring package.
+# Ahmed Noor Kader Mustajir Md Eusoff <sir.ade@gmail.com>, 2010.
+#
+
+
+
+
+========== nb.po ==========
+# Norwegian translations for mate-keyring.
+# Copyright (C) 2003 Red Hat Inc.
+# This file is distributed under the same license as the mate-keyring package.
+# Kjartan Maraas <kmaraas@gnome.org>, 2003-2010.
+#
+
+
+
+
+========== nds.po ==========
+# Low German translation for libmate-keyring.
+# Copyright (C) 2010 libmate-keyring's COPYRIGHT HOLDER
+# This file is distributed under the same license as the libmate-keyring package.
+# Nils-Christoph Fiedler <fiedler@medienkompanie.de>, 2010.
+#
+
+
+
+
+========== nl.po ==========
+# Dutch translation for libmate-keyring
+#
+# This file is distributed under the same license as the libmate-keyring package.
+#
+# Wouter Bolsterlee <wbolster@gnome.org>, 2010
+#
+
+
+
+
+========== nn.po ==========
+# Norwegian Nynorsk translation for libmate-keyring.
+# Copyright (C) 2010 libmate-keyring's COPYRIGHT HOLDER
+# This file is distributed under the same license as the libmate-keyring package.
+#
+# Torstein Adolf Winterseth <kvikende@fsfe.org>, 2010.
+
+
+
+
+========== or.po ==========
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Manoj Kumar Giri <mgiri@redhat.com>, 2011.
+
+
+
+
+========== pa.po ==========
+# Punjabi translation for libmate-keyring.
+# Copyright (C) 2010 libmate-keyring's COPYRIGHT HOLDER
+# This file is distributed under the same license as the libmate-keyring package.
+#
+# A S Alam <aalam@users.sf.net>, 2010.
+
+
+
+
+========== pl.po ==========
+# -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+# Aviary.pl
+# Jeśli masz jakiekolwiek uwagi odnoszące się do tłumaczenia lub chcesz
+# pomóc w jego rozwijaniu i pielęgnowaniu, napisz do nas:
+# matepl@aviary.pl
+# -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+
+
+
+========== pt.po ==========
+# libmate-keyring's Portuguese translation.
+# Copyright © 2010 libmate-keyring
+# This file is distributed under the same license as the libmate-keyring package.
+# Duarte Loreto <happyguy_pt@hotmail.com>, 2010.
+#
+
+
+
+
+========== pt_BR.po ==========
+# Brazilian Portuguese translation for libmate-keyring.
+# Copyright (C) 2010 libmate-keyring's COPYRIGHT HOLDER
+# This file is distributed under the same license as the libmate-keyring package.
+# Henrique P. Machado <hpmachado@gnome.org>, 2010.
+#
+
+
+
+
+========== ro.po ==========
+# Romanian translation for libmate-keyring.
+# Copyright (C) 2010 libmate-keyring's COPYRIGHT HOLDER
+# This file is distributed under the same license as the libmate-keyring package.
+# Claudia Cotună <special4ti@gmail.com>, 2010.
+#
+
+
+
+
+========== ru.po ==========
+# translation of ru.po to Russian
+# Russian translation for libmate-keyring.
+# Copyright (C) 2010 libmate-keyring's COPYRIGHT HOLDER
+# This file is distributed under the same license as the libmate-keyring package.
+#
+# Юрий Козлов <yuray@komyakino.ru>, 2010.
+# Yuri Kozlov <yuray@komyakino.ru>, 2010.
+# Leonid Kanter <leon@asplinux.ru>, 2010.
+
+
+
+
+========== sk.po ==========
+# Slovak translation for libmate-keyring.
+# Copyright (C) 2010 Free Software Foundation, Inc.
+# This file is distributed under the same license as the libmate-keyring package.
+# Marcel Telka <marcel@telka.sk>, 2010.
+#
+
+
+
+
+========== sl.po ==========
+# Slovenian translation for libmate-keyring.
+# Copyright (C) 2010 libmate-keyring's COPYRIGHT HOLDER
+# This file is distributed under the same license as the libmate-keyring package.
+#
+# Matej Urbančič <mateju@svn.gnome.org>, 2010.
+#
+
+
+
+
+========== sr.po ==========
+# Serbian translation of libmate-keyring.
+# Copyright (C) 2010.
+# This file is distributed under the same license as the libmate-keyring package.
+#
+# Miloš Popović <gpopac@gmail.com>, 2010.
+# Милош Поповић <gpopac@gmail.com>, 2010.
+
+
+
+
+========== sr@latin.po ==========
+# Serbian translation of libmate-keyring.
+# Copyright (C) 2010.
+# This file is distributed under the same license as the libmate-keyring package.
+#
+# Miloš Popović <gpopac@gmail.com>, 2010.
+# Miloš Popović <gpopac@gmail.com>, 2010.
+
+
+
+
+========== sv.po ==========
+# Swedish translation for libmate-keyring.
+# Copyright (C) 2010 Free Software Foundation, Inc.
+# This file is distributed under the same license as the libmate-keyring package.
+# Daniel Nylander <po@danielnylander.se>, 2010.
+#
+
+
+
+
+========== ta.po ==========
+# Tamil translation for libmate-keyring.
+# Copyright (C) 2010 libmate-keyring's COPYRIGHT HOLDER
+# This file is distributed under the same license as the libmate-keyring package.
+#
+# Dr,T,Vasudevan <agnihot3@gmail.com>, 2010.
+
+
+
+
+========== th.po ==========
+# Thai translation for libmate-keyring.
+# Copyright (C) 2010 libmate-keyring's COPYRIGHT HOLDER
+# This file is distributed under the same license as the libmate-keyring package.
+# Theppitak Karoonboonyanan <thep@linux.thai.net>, 2010.
+#
+
+
+
+
+========== ug.po ==========
+# Uyghur translation for libmate-keyring
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# Gheyret Kenji <gheyret@yahoo.com>, 2010.
+#
+
+
+
+
+========== uk.po ==========
+# Ukrainian translation of libmate-keyring.
+# Copyright (C) 2010 Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# Maxim Dziumanenko <dziumanenko@gmail.com>, 2010
+#
+
+
+
+
+========== vi.po ==========
+# Vietnamese translation for libmate-keyring
+# Copyright (c) 2010 Rosetta Contributors and Canonical Ltd 2010
+# This file is distributed under the same license as the libmate-keyring package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2010.
+#
+
+
+
+
+========== zh_CN.po ==========
+# Chinese (China) translation for libmate-keyring.
+# Copyright (C) 2010 Free Software Foundation, Inc.
+# This file is distributed under the same license as the libmate-keyring package.
+# Aron Xu <happyaron.xu@gmail.com>, 2010.
+#
+
+
+
+
+========== zh_HK.po ==========
+# Chinese (Hong Kong) translation for libmate-keyring.
+# Copyright (C) 2010 libmate-keyring's COPYRIGHT HOLDER
+# This file is distributed under the same license as the libmate-keyring package.
+# Zerng07 <pswo10680@gmail.com>, 2010.
+#
+
+
+
+
+========== zh_TW.po ==========
+# Chinese (Taiwan) translation for libmate-keyring.
+# Copyright (C) 2010 libmate-keyring's COPYRIGHT HOLDER
+# This file is distributed under the same license as the libmate-keyring package.
+# Zerng07 <pswo10680@gmail.com>, 2010.
+#
+
+
+
+
