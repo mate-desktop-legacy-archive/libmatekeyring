@@ -1,23 +1,23 @@
-# Esperanto translation for libmate-keyring
-# Copyright (c) 2010 Rosetta Contributors and Canonical Ltd 2010
-# This file is distributed under the same license as the libmate-keyring package.
-# Emmanuel Gil PEYROT linkmauve@linkmauve.fr>, 2010.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
 # Aisano <>, 2010.
-#
+# Emmanuel Gil PEYROT linkmauve@linkmauve.fr>, 2010.
+# Michael Moroni <michael.moroni@mailoo.org>, 2012.
 msgid ""
 msgstr ""
-"Project-Id-Version: libmate-keyring\n"
-"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=mate-"
-"keyring&component=libmate-keyring\n"
-"POT-Creation-Date: 2010-06-22 02:48+0000\n"
-"PO-Revision-Date: 2010-06-27 14:50+0200\n"
-"Last-Translator: Aisano <Unknown>\n"
-"Language-Team: Esperanto <ubuntu-l10n-eo@lists.launchpad.net>\n"
+"Project-Id-Version: MATE Desktop Environment\n"
+"Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
+"POT-Creation-Date: 2012-06-28 16:07+0200\n"
+"PO-Revision-Date: 2012-02-22 17:33+0000\n"
+"Last-Translator: Michael Moroni <haikara90@gmail.com>\n"
+"Language-Team: Esperanto (http://www.transifex.com/projects/p/MATE/language/eo/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2010-06-27 12:48+0000\n"
-"X-Generator: Launchpad (build Unknown)\n"
+"Language: eo\n"
 "Plural-Forms: nplurals=2; plural=(n != 1)\n"
 
 #: ../library/mate-keyring-utils.c:100
@@ -26,11 +26,11 @@ msgstr "Aliro malpermesita"
 
 #: ../library/mate-keyring-utils.c:102
 msgid "The mate-keyring-daemon application is not running."
-msgstr "La gnoma ŝlosilara demono ne ruiliĝas."
+msgstr "La demono de la ŝlosilaro de MATE ne ruliĝas."
 
 #: ../library/mate-keyring-utils.c:104
 msgid "Error communicating with mate-keyring-daemon"
-msgstr "Eraro dum komunikado kun la gnoma ŝlosilara demono"
+msgstr "Eraro dum komunikado kun la demono de la ŝlosilaro de MATE"
 
 #: ../library/mate-keyring-utils.c:106
 msgid "A keyring with that name already exists"
@@ -38,11 +38,11 @@ msgstr "Ŝlosilaro kun tiu nomo jam ekzistas."
 
 #: ../library/mate-keyring-utils.c:108
 msgid "Programmer error: The application sent invalid data."
-msgstr "Programista eraro: la aplikaĵo sendis nevalidajn datenojn."
+msgstr "Eraro de programisto: la aplikaĵo sendis nevalidajn datumojn."
 
 #: ../library/mate-keyring-utils.c:110
 msgid "No matching results"
-msgstr "Nenio kongruis."
+msgstr "Neniu kongruo rezultas."
 
 #: ../library/mate-keyring-utils.c:112
 msgid "A keyring with that name does not exist."
@@ -53,6 +53,6 @@ msgid "The keyring has already been unlocked."
 msgstr "La ŝlosilaro jam estis malŝlosita."
 
 #. TRANSLATORS: This is the name of an automatically created default keyring.
-#: ../library/mate-keyring.c:2807
+#: ../library/mate-keyring.c:2790
 msgid "Default"
-msgstr "Defaŭlto"
+msgstr "Aprioro"

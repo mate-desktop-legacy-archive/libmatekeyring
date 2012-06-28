@@ -1,21 +1,22 @@
-# Spanish translation for libmate-keyring.
-# Copyright (C) 2010 libmate-keyring's COPYRIGHT HOLDER
-# This file is distributed under the same license as the libmate-keyring package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
 # Jorge González <jorgegonz@svn.gnome.org>, 2010.
 msgid ""
 msgstr ""
-"Project-Id-Version: libmate-keyring master\n"
-"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=mate-"
-"keyring&component=libmate-keyring\n"
-"POT-Creation-Date: 2010-02-24 19:07+0000\n"
-"PO-Revision-Date: 2010-02-24 21:12+0100\n"
-"Last-Translator: Jorge González <jorgegonz@svn.gnome.org>\n"
-"Language-Team: Español <mate-es-list@gnome.org>\n"
+"Project-Id-Version: MATE Desktop Environment\n"
+"Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
+"POT-Creation-Date: 2012-06-28 16:07+0200\n"
+"PO-Revision-Date: 2012-02-22 14:50+0000\n"
+"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>\n"
+"Language-Team: Spanish (Castilian) (http://www.transifex.com/projects/p/MATE/language/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: es\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
 
 #: ../library/mate-keyring-utils.c:100
 msgid "Access Denied"
@@ -50,6 +51,6 @@ msgid "The keyring has already been unlocked."
 msgstr "El depósito de claves ya se ha desbloqueado."
 
 #. TRANSLATORS: This is the name of an automatically created default keyring.
-#: ../library/mate-keyring.c:2685
+#: ../library/mate-keyring.c:2790
 msgid "Default"
 msgstr "Predeterminado"

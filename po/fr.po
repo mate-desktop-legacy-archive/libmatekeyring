@@ -1,21 +1,22 @@
-# French translation for libmate-keyring.
-# Copyright (C) 2010 Listed translators
-# This file is distributed under the same license as the libmate-keyring package.
-# Claude Paroz <claude@2xlibre.net>, 2010
-#
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# Claude Paroz <claude@2xlibre.net>, 2010.
 msgid ""
 msgstr ""
-"Project-Id-Version: libmate-keyring master\n"
-"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=mate-"
-"keyring&component=libmate-keyring\n"
-"POT-Creation-Date: 2010-02-24 20:14+0000\n"
-"PO-Revision-Date: 2010-02-24 22:54+0100\n"
-"Last-Translator: Claude Paroz <claude@2xlibre.net>\n"
-"Language-Team: MATE French Team <matefr@traduc.org>\n"
+"Project-Id-Version: MATE Desktop Environment\n"
+"Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
+"POT-Creation-Date: 2012-06-28 16:07+0200\n"
+"PO-Revision-Date: 2012-02-22 14:50+0000\n"
+"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>\n"
+"Language-Team: French (http://www.transifex.com/projects/p/MATE/language/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Language: fr\n"
+"Plural-Forms: nplurals=2; plural=(n > 1)\n"
 
 #: ../library/mate-keyring-utils.c:100
 msgid "Access Denied"
@@ -50,6 +51,6 @@ msgid "The keyring has already been unlocked."
 msgstr "Le trousseau de clés a déjà été déverrouillé."
 
 #. TRANSLATORS: This is the name of an automatically created default keyring.
-#: ../library/mate-keyring.c:2685
+#: ../library/mate-keyring.c:2790
 msgid "Default"
 msgstr "Par défaut"

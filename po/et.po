@@ -1,50 +1,56 @@
-# Estonian translation for libmate-keyring.
-# Libmate-keyring'i eesti keele tõlge.
-#
-# Copyright (C) 2010 The MATE Project.
-#
-# This file is distributed under the same license as the libmate-keyring package.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
 # Mattias Põldaru <mahfiaz gmail com>, 2010.
-#
 msgid ""
 msgstr ""
-"Project-Id-Version: libmate-keyring master\n"
-"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=mate-"
-"keyring&component=libmate-keyring\n"
-"POT-Creation-Date: 2010-11-20 11:00+0000\n"
-"PO-Revision-Date: 2010-03-18 17:47+0300\n"
-"Last-Translator: Mattias Põldaru <mahfiaz gmail com>\n"
-"Language-Team: Estonian <et@li.org>\n"
-"Language: et\n"
+"Project-Id-Version: MATE Desktop Environment\n"
+"Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
+"POT-Creation-Date: 2012-06-28 16:07+0200\n"
+"PO-Revision-Date: 2012-02-22 14:50+0000\n"
+"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>\n"
+"Language-Team: Estonian (http://www.transifex.com/projects/p/MATE/language/et/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: et\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
 
+#: ../library/mate-keyring-utils.c:100
 msgid "Access Denied"
 msgstr "Ligipääs keelatud"
 
+#: ../library/mate-keyring-utils.c:102
 msgid "The mate-keyring-daemon application is not running."
 msgstr "Rakendus mate-keyring-daemon ei tööta."
 
+#: ../library/mate-keyring-utils.c:104
 msgid "Error communicating with mate-keyring-daemon"
 msgstr "Tõrge mate-keyring-daemoniga suhtlemisel"
 
+#: ../library/mate-keyring-utils.c:106
 msgid "A keyring with that name already exists"
 msgstr "Sellenimeline võtmerõngas on juba olemas"
 
+#: ../library/mate-keyring-utils.c:108
 msgid "Programmer error: The application sent invalid data."
 msgstr "Programmeerija viga: rakendus saatis mittekorrektseid andmeid."
 
+#: ../library/mate-keyring-utils.c:110
 msgid "No matching results"
 msgstr "Sobivaid vasteid ei leitud"
 
+#: ../library/mate-keyring-utils.c:112
 msgid "A keyring with that name does not exist."
 msgstr "Sellenimelist võtmerõngast ei ole."
 
+#: ../library/mate-keyring-utils.c:119
 msgid "The keyring has already been unlocked."
 msgstr "See võtmerõngas juba on lukust lahti võetud."
 
 #. TRANSLATORS: This is the name of an automatically created default keyring.
+#: ../library/mate-keyring.c:2790
 msgid "Default"
 msgstr "Vaikimisi"

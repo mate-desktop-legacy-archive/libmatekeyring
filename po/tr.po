@@ -3,54 +3,53 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-# Bruce Cowan <bcowan@fastmail.co.uk>, 2010.
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
 "POT-Creation-Date: 2012-06-28 16:07+0200\n"
-"PO-Revision-Date: 2012-02-22 14:51+0000\n"
-"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2012-03-17 08:10+0000\n"
+"Last-Translator: mauron <mauron@vmail.me>\n"
+"Language-Team: Turkish (http://www.transifex.com/projects/p/MATE/language/tr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: en_GB\n"
-"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"Language: tr\n"
+"Plural-Forms: nplurals=1; plural=0\n"
 
 #: ../library/mate-keyring-utils.c:100
 msgid "Access Denied"
-msgstr "Access Denied"
+msgstr "İzin reddedildi"
 
 #: ../library/mate-keyring-utils.c:102
 msgid "The mate-keyring-daemon application is not running."
-msgstr "The mate-keyring-daemon application is not running."
+msgstr "mate-keyring-daemon uygulaması faal değil."
 
 #: ../library/mate-keyring-utils.c:104
 msgid "Error communicating with mate-keyring-daemon"
-msgstr "Error communicating with mate-keyring-daemon"
+msgstr "mate-keyring-daemon ile iletişimde hata meydana geldi"
 
 #: ../library/mate-keyring-utils.c:106
 msgid "A keyring with that name already exists"
-msgstr "A keyring with that name already exists"
+msgstr "Bu isimde bir anahtarlık zaten mevcuttur"
 
 #: ../library/mate-keyring-utils.c:108
 msgid "Programmer error: The application sent invalid data."
-msgstr "Programmer error: The application sent invalid data."
+msgstr "Programcı hatası: uygulama geçersiz veri gönderdi."
 
 #: ../library/mate-keyring-utils.c:110
 msgid "No matching results"
-msgstr "No matching results"
+msgstr "Denk gelen hiçbir sonuç yok"
 
 #: ../library/mate-keyring-utils.c:112
 msgid "A keyring with that name does not exist."
-msgstr "A keyring with that name does not exist."
+msgstr "Bu isimde bir anahtarlık yoktur."
 
 #: ../library/mate-keyring-utils.c:119
 msgid "The keyring has already been unlocked."
-msgstr "The keyring has already been unlocked."
+msgstr "Bu anahtarlığın kilidi zaten açılmıştır."
 
 #. TRANSLATORS: This is the name of an automatically created default keyring.
 #: ../library/mate-keyring.c:2790
 msgid "Default"
-msgstr "Default"
+msgstr "Varsayılan"
