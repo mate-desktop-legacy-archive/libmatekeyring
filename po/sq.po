@@ -1,0 +1,56 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# Alban  <nofbname@gmail.com>, 2012.
+msgid ""
+msgstr ""
+"Project-Id-Version: MATE Desktop Environment\n"
+"Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
+"POT-Creation-Date: 2012-06-28 16:07+0200\n"
+"PO-Revision-Date: 2012-07-27 00:49+0000\n"
+"Last-Translator: Alban <nofbname@gmail.com>\n"
+"Language-Team: Albanian (http://www.transifex.com/projects/p/MATE/language/sq/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: sq\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../library/mate-keyring-utils.c:100
+msgid "Access Denied"
+msgstr "Refuzohet Hyrja"
+
+#: ../library/mate-keyring-utils.c:102
+msgid "The mate-keyring-daemon application is not running."
+msgstr "Mate-keyring-daemon aplikimi nuk është në ekzekutim."
+
+#: ../library/mate-keyring-utils.c:104
+msgid "Error communicating with mate-keyring-daemon"
+msgstr "Gabim gjatë lidhjes me mate-keyring-daemon"
+
+#: ../library/mate-keyring-utils.c:106
+msgid "A keyring with that name already exists"
+msgstr "Një organizues me këtë emër ekziston"
+
+#: ../library/mate-keyring-utils.c:108
+msgid "Programmer error: The application sent invalid data."
+msgstr "Gabim Programmer: Aplikacioni ka dërguar të dhëna të pavlefshme."
+
+#: ../library/mate-keyring-utils.c:110
+msgid "No matching results"
+msgstr "Asnjë rezultat përputhet"
+
+#: ../library/mate-keyring-utils.c:112
+msgid "A keyring with that name does not exist."
+msgstr "Një organizues me këtë emër nuk ekziston."
+
+#: ../library/mate-keyring-utils.c:119
+msgid "The keyring has already been unlocked."
+msgstr "Organizues tashmë është i hapur."
+
+#. TRANSLATORS: This is the name of an automatically created default keyring.
+#: ../library/mate-keyring.c:2790
+msgid "Default"
+msgstr "Default"
