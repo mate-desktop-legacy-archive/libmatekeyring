@@ -2,7 +2,7 @@ AC_INIT([libmatekeyring], [1.5.0])
 AC_CONFIG_SRCDIR([library/mate-keyring.h])
 AM_INIT_AUTOMAKE([tar-ustar])
 
-AM_CONFIG_HEADER(config.h)
+AC_CONFIG_HEADERS(config.h)
 m4_ifdef([AM_SILENT_RULES], [AM_SILENT_RULES([yes])])
 
 AM_SANITY_CHECK
