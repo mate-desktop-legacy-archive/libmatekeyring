@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
 "POT-Creation-Date: 2012-06-28 16:07+0200\n"
-"PO-Revision-Date: 2013-03-07 23:36+0000\n"
+"PO-Revision-Date: 2013-03-23 20:03+0000\n"
 "Last-Translator: samson <sambelet@yahoo.com>\n"
 "Language-Team: Amharic (http://www.transifex.com/projects/p/MATE/language/am/)\n"
 "MIME-Version: 1.0\n"
@@ -20,7 +20,7 @@ msgstr ""
 
 #: ../library/mate-keyring-utils.c:100
 msgid "Access Denied"
-msgstr ""
+msgstr "ፍቃድ ተከልክሏል "
 
 #: ../library/mate-keyring-utils.c:102
 msgid "The mate-keyring-daemon application is not running."
