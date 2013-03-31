@@ -1,4 +1,4 @@
-AC_INIT([libmatekeyring], [1.5.1])
+AC_INIT([libmatekeyring], [1.6.0])
 AC_CONFIG_SRCDIR([library/mate-keyring.h])
 AM_INIT_AUTOMAKE([tar-ustar])
 
