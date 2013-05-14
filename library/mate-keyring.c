@@ -49,6 +49,12 @@
 #include <sys/uio.h>
 #include <stdarg.h>
 
+#ifdef __GNUC__
+#define UNUSED_VARIABLE __attribute__ ((unused))
+#else
+#define UNUSED_VARIABLE
+#endif
+
 typedef gboolean (*DecodeCallback) (DBusMessageIter *, gpointer);
 
 typedef gboolean (*DecodeDictCallback) (const gchar *, DBusMessageIter *, gpointer);
@@ -3924,7 +3930,7 @@ find_network_password_filter (MateKeyringResult res, GList *found_list, gpointer
 	GkrCallback *cb = user_data;
 	MateKeyringNetworkPasswordData *data;
 	MateKeyringFound *found;
-	MateKeyringAttribute *attributes;
+	MateKeyringAttribute UNUSED_VARIABLE *attributes;
 	GList *result, *l;
 	int i;
 
