@@ -30,6 +30,12 @@
 
 #include <string.h>
 
+#ifdef __GNUC__
+#define UNUSED_VARIABLE __attribute__ ((unused))
+#else
+#define UNUSED_VARIABLE
+#endif
+
 gboolean
 egg_hkdf_perform (const gchar *hash_algo, gconstpointer input, gsize n_input,
                   gconstpointer salt, gsize n_salt, gconstpointer info,
@@ -40,7 +46,8 @@ egg_hkdf_perform (const gchar *hash_algo, gconstpointer input, gsize n_input,
 	gcry_md_hd_t md1, md2;
 	guint hash_len;
 	guchar i;
-	gint flags, algo;
+	gint UNUSED_VARIABLE flags;
+	gint algo;
 	gsize step, n_buffer;
 	guchar *at;
 	gcry_error_t gcry;

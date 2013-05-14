@@ -56,11 +56,11 @@ extern void   egg_memory_unlock (void);
 extern void*  egg_memory_fallback (void *p, size_t length);
 
 #define EGG_SECURE_GLIB_DEFINITIONS() \
-	static GStaticMutex memory_mutex = G_STATIC_MUTEX_INIT; \
+	static GMutex memory_mutex = { 0, }; \
 	void egg_memory_lock (void) \
-		{ g_static_mutex_lock (&memory_mutex); } \
+		{ g_mutex_lock (&memory_mutex); } \
 	void egg_memory_unlock (void) \
-		{ g_static_mutex_unlock (&memory_mutex); } \
+		{ g_mutex_unlock (&memory_mutex); } \
 	void* egg_memory_fallback (void *p, size_t sz) \
 		{ return g_realloc (p, sz); } \
 
