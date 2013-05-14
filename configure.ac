@@ -1,6 +1,6 @@
 AC_INIT([libmatekeyring], [1.6.0])
 AC_CONFIG_SRCDIR([library/mate-keyring.h])
-AM_INIT_AUTOMAKE([tar-ustar])
+AM_INIT_AUTOMAKE([1.9 no-dist-gzip dist-xz tar-ustar])
 
 AC_CONFIG_HEADERS(config.h)
 m4_ifdef([AM_SILENT_RULES], [AM_SILENT_RULES([yes])])
@@ -37,7 +37,7 @@ GTK_DOC_CHECK(1.9)
 DISTCHECK_CONFIGURE_FLAGS="--enable-gtk-doc"
 AC_SUBST(DISTCHECK_CONFIGURE_FLAGS)
 
-PKG_CHECK_MODULES(GLIB, glib-2.0 >= 2.16.0)
+PKG_CHECK_MODULES(GLIB, glib-2.0 >= 2.31.0)
 AC_SUBST(GLIB_CFLAGS)
 AC_SUBST(GLIB_LIBS)
 
