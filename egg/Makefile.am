@@ -2,7 +2,7 @@
 noinst_LTLIBRARIES = \
 	libegg.la
 
-INCLUDES = \
+AM_CPPFLAGS = \
 	-I$(top_srcdir) \
 	-I$(top_builddir)
 

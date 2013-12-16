@@ -2,7 +2,7 @@ libmatekeyringincludedir = $(includedir)/mate-keyring-1/
 
 lib_LTLIBRARIES=libmate-keyring.la
 
-INCLUDES= \
+AM_CPPFLAGS= \
 	-DPREFIX=\""$(prefix)"\" \
 	-DBINDIR=\""$(bindir)"\" \
 	-DLIBEXECDIR=\""$(libexecdir)"\" \
